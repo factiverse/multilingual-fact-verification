@@ -1,4 +1,4 @@
-# FactCheck Editor
+# Factiverse Multilingual fact-checking API examples
 
 ## Translate data
 * To translate data use `translate_data.py`. 
@@ -9,8 +9,6 @@
 ## Setup
 * Make a copy of the .env.example file in `.env``
 * Contact Factiverse for obtaining the values for `SERVER_ENDPOINT`, `AUTH0_AUDIENCE`, `AUTH0_TOKEN_URL`, `AUTH0_CLIENT_ID`, `AUTH0_SECRET`
-* Setup ollama following guide at ollama.ai and specify the endpoint for `OLLAMA_HOST`
-* Specify OpenAI credentials deployed in Azure for `AZURE_OPENAI_KEY`, `AZURE_OPENAI_ENDPOINT` and `AZURE_OPENAI_MODELID`
 
 ## Evaluate claim detection
 * First run claim detection predictions using `python -m code.claim_detection.claim_detection`
